@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52474B0E2B3D673D0001680B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52474B0D2B3D673D0001680B /* AppDelegate.swift */; };
+		52474B102B3D673D0001680B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52474B0F2B3D673D0001680B /* ContentView.swift */; };
+		52474B122B3D67400001680B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52474B112B3D67400001680B /* Assets.xcassets */; };
+		52474B152B3D67400001680B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52474B142B3D67400001680B /* Preview Assets.xcassets */; };
+		52474B1F2B3D67400001680B /* MonoPickerAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52474B1E2B3D67400001680B /* MonoPickerAppTests.swift */; };
+		52474B292B3D67400001680B /* MonoPickerAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52474B282B3D67400001680B /* MonoPickerAppUITests.swift */; };
+		52474B2B2B3D67400001680B /* MonoPickerAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52474B2A2B3D67400001680B /* MonoPickerAppUITestsLaunchTests.swift */; };
+		52474B3B2B3D6A890001680B /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 52474B382B3D6A880001680B /* toy_biplane_idle.usdz */; };
+		52474B3C2B3D6A890001680B /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 52474B392B3D6A880001680B /* fender_stratocaster.usdz */; };
+		52474B3D2B3D6A890001680B /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 52474B3A2B3D6A890001680B /* teapot.usdz */; };
+		52474B3F2B3D6AAE0001680B /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 52474B3E2B3D6AAE0001680B /* robot_walk_idle.usdz */; };
+		52474B412B3DC4740001680B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52474B402B3DC4740001680B /* Model.swift */; };
+		52474B442B3E049C0001680B /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = 52474B432B3E049C0001680B /* FocusEntity */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52474B1B2B3D67400001680B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52474B022B3D673D0001680B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52474B092B3D673D0001680B;
+			remoteInfo = MonoPickerApp;
+		};
+		52474B252B3D67400001680B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52474B022B3D673D0001680B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52474B092B3D673D0001680B;
+			remoteInfo = MonoPickerApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52474B0A2B3D673D0001680B /* MonoPickerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MonoPickerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52474B0D2B3D673D0001680B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52474B0F2B3D673D0001680B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52474B112B3D67400001680B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52474B142B3D67400001680B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52474B1A2B3D67400001680B /* MonoPickerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonoPickerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52474B1E2B3D67400001680B /* MonoPickerAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoPickerAppTests.swift; sourceTree = "<group>"; };
+		52474B242B3D67400001680B /* MonoPickerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonoPickerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52474B282B3D67400001680B /* MonoPickerAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoPickerAppUITests.swift; sourceTree = "<group>"; };
+		52474B2A2B3D67400001680B /* MonoPickerAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonoPickerAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52474B382B3D6A880001680B /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
+		52474B392B3D6A880001680B /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
+		52474B3A2B3D6A890001680B /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		52474B3E2B3D6AAE0001680B /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot_walk_idle.usdz; sourceTree = "<group>"; };
+		52474B402B3DC4740001680B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52474B072B3D673D0001680B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52474B442B3E049C0001680B /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52474B172B3D67400001680B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52474B212B3D67400001680B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52474B012B3D673D0001680B = {
+			isa = PBXGroup;
+			children = (
+				52474B0C2B3D673D0001680B /* MonoPickerApp */,
+				52474B1D2B3D67400001680B /* MonoPickerAppTests */,
+				52474B272B3D67400001680B /* MonoPickerAppUITests */,
+				52474B0B2B3D673D0001680B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52474B0B2B3D673D0001680B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52474B0A2B3D673D0001680B /* MonoPickerApp.app */,
+				52474B1A2B3D67400001680B /* MonoPickerAppTests.xctest */,
+				52474B242B3D67400001680B /* MonoPickerAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52474B0C2B3D673D0001680B /* MonoPickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				52474B372B3D697C0001680B /* Models */,
+				52474B0D2B3D673D0001680B /* AppDelegate.swift */,
+				52474B0F2B3D673D0001680B /* ContentView.swift */,
+				52474B112B3D67400001680B /* Assets.xcassets */,
+				52474B132B3D67400001680B /* Preview Content */,
+				52474B402B3DC4740001680B /* Model.swift */,
+			);
+			path = MonoPickerApp;
+			sourceTree = "<group>";
+		};
+		52474B132B3D67400001680B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52474B142B3D67400001680B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52474B1D2B3D67400001680B /* MonoPickerAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				52474B1E2B3D67400001680B /* MonoPickerAppTests.swift */,
+			);
+			path = MonoPickerAppTests;
+			sourceTree = "<group>";
+		};
+		52474B272B3D67400001680B /* MonoPickerAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52474B282B3D67400001680B /* MonoPickerAppUITests.swift */,
+				52474B2A2B3D67400001680B /* MonoPickerAppUITestsLaunchTests.swift */,
+			);
+			path = MonoPickerAppUITests;
+			sourceTree = "<group>";
+		};
+		52474B372B3D697C0001680B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52474B3E2B3D6AAE0001680B /* robot_walk_idle.usdz */,
+				52474B392B3D6A880001680B /* fender_stratocaster.usdz */,
+				52474B3A2B3D6A890001680B /* teapot.usdz */,
+				52474B382B3D6A880001680B /* toy_biplane_idle.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52474B092B3D673D0001680B /* MonoPickerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52474B2E2B3D67400001680B /* Build configuration list for PBXNativeTarget "MonoPickerApp" */;
+			buildPhases = (
+				52474B062B3D673D0001680B /* Sources */,
+				52474B072B3D673D0001680B /* Frameworks */,
+				52474B082B3D673D0001680B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MonoPickerApp;
+			packageProductDependencies = (
+				52474B432B3E049C0001680B /* FocusEntity */,
+			);
+			productName = MonoPickerApp;
+			productReference = 52474B0A2B3D673D0001680B /* MonoPickerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52474B192B3D67400001680B /* MonoPickerAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52474B312B3D67400001680B /* Build configuration list for PBXNativeTarget "MonoPickerAppTests" */;
+			buildPhases = (
+				52474B162B3D67400001680B /* Sources */,
+				52474B172B3D67400001680B /* Frameworks */,
+				52474B182B3D67400001680B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52474B1C2B3D67400001680B /* PBXTargetDependency */,
+			);
+			name = MonoPickerAppTests;
+			productName = MonoPickerAppTests;
+			productReference = 52474B1A2B3D67400001680B /* MonoPickerAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52474B232B3D67400001680B /* MonoPickerAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52474B342B3D67400001680B /* Build configuration list for PBXNativeTarget "MonoPickerAppUITests" */;
+			buildPhases = (
+				52474B202B3D67400001680B /* Sources */,
+				52474B212B3D67400001680B /* Frameworks */,
+				52474B222B3D67400001680B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52474B262B3D67400001680B /* PBXTargetDependency */,
+			);
+			name = MonoPickerAppUITests;
+			productName = MonoPickerAppUITests;
+			productReference = 52474B242B3D67400001680B /* MonoPickerAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52474B022B3D673D0001680B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					52474B092B3D673D0001680B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					52474B192B3D67400001680B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 52474B092B3D673D0001680B;
+					};
+					52474B232B3D67400001680B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 52474B092B3D673D0001680B;
+					};
+				};
+			};
+			buildConfigurationList = 52474B052B3D673D0001680B /* Build configuration list for PBXProject "MonoPickerApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52474B012B3D673D0001680B;
+			packageReferences = (
+				52474B422B3E049C0001680B /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = 52474B0B2B3D673D0001680B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52474B092B3D673D0001680B /* MonoPickerApp */,
+				52474B192B3D67400001680B /* MonoPickerAppTests */,
+				52474B232B3D67400001680B /* MonoPickerAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52474B082B3D673D0001680B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52474B152B3D67400001680B /* Preview Assets.xcassets in Resources */,
+				52474B3B2B3D6A890001680B /* toy_biplane_idle.usdz in Resources */,
+				52474B3C2B3D6A890001680B /* fender_stratocaster.usdz in Resources */,
+				52474B122B3D67400001680B /* Assets.xcassets in Resources */,
+				52474B3D2B3D6A890001680B /* teapot.usdz in Resources */,
+				52474B3F2B3D6AAE0001680B /* robot_walk_idle.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52474B182B3D67400001680B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52474B222B3D67400001680B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52474B062B3D673D0001680B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52474B102B3D673D0001680B /* ContentView.swift in Sources */,
+				52474B412B3DC4740001680B /* Model.swift in Sources */,
+				52474B0E2B3D673D0001680B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52474B162B3D67400001680B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52474B1F2B3D67400001680B /* MonoPickerAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52474B202B3D67400001680B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52474B292B3D67400001680B /* MonoPickerAppUITests.swift in Sources */,
+				52474B2B2B3D67400001680B /* MonoPickerAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52474B1C2B3D67400001680B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52474B092B3D673D0001680B /* MonoPickerApp */;
+			targetProxy = 52474B1B2B3D67400001680B /* PBXContainerItemProxy */;
+		};
+		52474B262B3D67400001680B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52474B092B3D673D0001680B /* MonoPickerApp */;
+			targetProxy = 52474B252B3D67400001680B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52474B2C2B3D67400001680B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52474B2D2B3D67400001680B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52474B2F2B3D67400001680B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonoPickerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 84X5CXP4S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = boxitoff.MonoPickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52474B302B3D67400001680B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MonoPickerApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 84X5CXP4S5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = boxitoff.MonoPickerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52474B322B3D67400001680B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = boxitoff.MonoPickerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonoPickerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonoPickerApp";
+			};
+			name = Debug;
+		};
+		52474B332B3D67400001680B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = boxitoff.MonoPickerAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MonoPickerApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MonoPickerApp";
+			};
+			name = Release;
+		};
+		52474B352B3D67400001680B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = boxitoff.MonoPickerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonoPickerApp;
+			};
+			name = Debug;
+		};
+		52474B362B3D67400001680B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = boxitoff.MonoPickerAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MonoPickerApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52474B052B3D673D0001680B /* Build configuration list for PBXProject "MonoPickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52474B2C2B3D67400001680B /* Debug */,
+				52474B2D2B3D67400001680B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52474B2E2B3D67400001680B /* Build configuration list for PBXNativeTarget "MonoPickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52474B2F2B3D67400001680B /* Debug */,
+				52474B302B3D67400001680B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52474B312B3D67400001680B /* Build configuration list for PBXNativeTarget "MonoPickerAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52474B322B3D67400001680B /* Debug */,
+				52474B332B3D67400001680B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52474B342B3D67400001680B /* Build configuration list for PBXNativeTarget "MonoPickerAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52474B352B3D67400001680B /* Debug */,
+				52474B362B3D67400001680B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		52474B422B3E049C0001680B /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		52474B432B3E049C0001680B /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 52474B422B3E049C0001680B /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 52474B022B3D673D0001680B /* Project object */;
+}
